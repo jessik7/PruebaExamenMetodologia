@@ -13,8 +13,6 @@ import javax.swing.JOptionPane;
  */
 public class PruebaExamenMetodologia {
 
-    // Tomar los datos de n alumnos y sacar nota final de 3 evaluaciones
- 
 
     public static void main(String[] args) {
         
@@ -42,7 +40,7 @@ public class PruebaExamenMetodologia {
         
         for(int i=0; i<cantidad; i++)
         {
-            JOptionPane.showMessageDialog(null,"Alumno"+ n , "Mensaje",1);
+            JOptionPane.showMessageDialog(null,"Alumno "+ n , "Mensaje",1);
             nombres[i] = JOptionPane.showInputDialog("Ingrese Nombre: " );
             apellido[i] = JOptionPane.showInputDialog("Ingrese Apellido: ");
             anio[i] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese Año de Nacimiento"));
