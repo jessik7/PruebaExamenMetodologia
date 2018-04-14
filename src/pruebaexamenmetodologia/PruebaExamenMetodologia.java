@@ -34,6 +34,7 @@ public class PruebaExamenMetodologia {
         double nota1[] = new double[cantidad];
         double nota2[] = new double[cantidad];
         double nota3[] = new double[cantidad];
+        //Para sacar el promedio
         double promedio[] = new double[cantidad];
         double suma[] = new double[cantidad];
         double sumapromedio = 0, promedioGeneral;
