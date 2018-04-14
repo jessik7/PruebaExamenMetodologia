@@ -54,8 +54,19 @@ public class Ejercicio2 {
          
         //Operaciones..
         
+        int canMasculino = 0, canFemenina = 0;
+        
         for(int i=0; i<cantidad; i++)
         {
+            if("M".equals(sexo[i]) || "m".equals(sexo[i]))
+            {
+                canMasculino = canMasculino +1;
+            }
+            if("F".equals(sexo[i]) || "f".equals(sexo[i]))
+            {
+                canFemenina = canFemenina +1;
+            }
+            
             
         } 
          
